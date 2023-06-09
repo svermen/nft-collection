@@ -362,6 +362,14 @@ export default function Home() {
             {tokenIdsMinted}/20 have been minted
           </div>
           {renderButton()}
+          <p></p>
+          <div>
+            <a href="https://white-list-dapp-eiv2psra3-svermen.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <button className={styles.button}>
+                Go Whitelist
+            </button>
+            </a>
+          </div>
         </div>
         <div>
           <img className={styles.image} src="./cryptodevs/0.svg" />
